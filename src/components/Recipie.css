@@ -1,0 +1,90 @@
+.recipie-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+     width: 100vw;
+     min-height: 100vh;
+}
+
+.recipie-cont-left {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    animation: leftAnimate 2s;
+}
+
+@keyframes leftAnimate {
+    from{
+        left: -100%;
+    }
+    to {
+        left: 0;
+    }
+}
+
+.recipie-cont-right {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    animation: rightAnimate 2s;
+}
+
+@keyframes rightAnimate {
+    from{
+        right: -100%;
+    }
+    to {
+        right: 0;
+    }
+}
+
+.fa-solid {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+    font-size: 30pt;
+}
+
+.recipie-image {
+    width: 50%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5%;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.ingredient-section {
+    margin-top: 5%;
+    font-family: 'Pacifico', cursive;
+    color: #000000de;
+}
+.instruction-section {
+    margin-top: 10%;
+    transform: translateY(-50%);
+    width: 80%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Pacifico', cursive;
+}
+
+.image-section {
+    text-align: center;
+}
+
+.image-section p {
+    font-weight: bold;
+}
+

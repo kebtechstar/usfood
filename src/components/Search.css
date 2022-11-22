@@ -1,0 +1,63 @@
+.search-container {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    width: 80%;
+}
+
+.text-input {
+    width: 50%;
+    position: absolute;
+    right: 3%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px 1px #000000;
+    font-size: 15pt;
+    padding-left: 50px;
+    border-radius: 10px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bolder;
+}
+
+.fa {
+    font-size: 25pt;
+    padding-top: 10px;
+    position: absolute;
+    right: 49%;
+    color: orangered;
+    text-shadow: -2px -2px #be2323;
+}
+
+@media screen and (max-width: 1300px) {
+    .text-input {
+        width: 80%;
+        right: 5%;
+    }
+
+    .fa {
+        font-size: 25pt;
+        padding-top: 10px;
+        position: absolute;
+        right: 81%;
+
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .fa {
+        right: 80%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    
+    .text-input {
+        width: 92%;
+        right: 5%;
+    }
+
+    .fa {
+        right: 90%;
+    }
+}

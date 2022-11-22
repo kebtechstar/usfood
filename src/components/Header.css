@@ -1,0 +1,92 @@
+.header {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)),url('../images/foodInPlate.jpg');
+    background-size: cover;
+    background-position: top;
+    padding: 2%;
+    box-sizing: border-box;
+    position: relative;
+    filter: brightness(90%);
+}
+
+.title {
+    color: orangered;
+    font-size: 20pt;
+    font-weight: bolder;
+    text-shadow: 2px 3px #181717;
+    font-family: 'Righteous', cursive;
+}
+
+
+
+.pastaImg {
+    width: 30%;
+    position: absolute;
+    right: 5%;
+    bottom: -30%;
+
+}
+.burgerImg {
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    bottom: -30%;
+
+}
+
+.tagline {
+    position: absolute;
+    top: 30%;
+    font-size: 40pt;
+    font-weight: bolder;
+    text-transform: capitalize;
+    margin-left: 20%;
+    color: #e9e9e9;
+}
+
+.tagline .tag-two {
+    font-size: 20pt;
+    text-transform: lowercase;
+    letter-spacing: 5px;
+}
+
+.details {
+    z-index: 2;
+}
+
+@media screen and (max-width: 960px) {
+    
+    .burgerImg {
+        width: 30%;
+        position: absolute;
+        left: 5%;
+        bottom: -20%;
+    
+    }
+
+    .pastaImg {
+        width: 30%;
+        position: absolute;
+        right: 5%;
+        bottom: -20%;
+    
+    }
+}
+@media screen and (max-width: 960px) {
+    
+    .burgerImg {
+        width: 30%;
+        position: absolute;
+        left: 5%;
+        bottom: -20%;
+    
+    }
+
+    .pastaImg {
+        width: 30%;
+        position: absolute;
+        right: 5%;
+        bottom: -20%;
+    
+    }
+}

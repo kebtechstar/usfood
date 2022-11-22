@@ -1,0 +1,65 @@
+.food-container {
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    grid-gap: 5%; 
+    height: fit-content;
+    margin-bottom: 3%;   
+    position: relative;
+}
+
+.food {
+    width: 300px;
+    height: 35vh;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+
+}
+
+.foodImg {
+    width: 100%;
+    position: absolute;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+}
+
+
+@media screen and (max-width: 960px) {
+    
+    .food {
+        width: 350px;
+        height: 35vh;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 20px;
+    
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    
+    .food {
+        width: 300px;
+        height: 35vh;
+        text-align: center;
+        overflow: hidden;
+        position: relative;
+        border-radius: 20px;
+        margin-right: 3%;
+    }
+
+    .food-container {
+        padding: 5%;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+        grid-gap: 2%; 
+        height: fit-content;
+        margin-bottom: 3%;   
+        position: relative;
+    }
+}

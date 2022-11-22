@@ -1,0 +1,50 @@
+.footer {
+    position: absolute;
+    top: 105%;
+    margin-top: 20%;
+}
+
+.animated {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    
+    .footer {
+        margin-top: 50%;
+    }
+}
+
+
+@media screen and (max-width: 673px) {
+    
+    .footer {
+        margin-top: 190%;
+    }
+}
+@media screen and (max-width: 673px) {
+    
+    .footer {
+        margin-top: 120%;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    
+    .footer {
+        margin-top: 180%;
+    }
+}
+@media screen and (max-width: 480px) {
+    
+    .footer {
+        margin-top: 245%;
+    }
+}

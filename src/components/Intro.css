@@ -1,0 +1,22 @@
+.intro-container {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    padding: 4.5%;
+    gap: 10px;
+}
+
+.intro-detail {
+    box-shadow: 0 0 10px 5px #00000067;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.intro-head {
+    display: flex;
+    align-items: center;
+}
+
+.intro-image {
+    width: 20%;
+}
