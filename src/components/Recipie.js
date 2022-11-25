@@ -10,9 +10,9 @@ const Recipie = ({setshowRecipie, foods, id}) => {
         
         
           {foods.map((recipie) => {
-
-            {if (recipie.id === id) {
-                return (
+  
+            
+                return recipie.id === id ?(
             <div className="recipie-cont-left" key={recipie.id}>
             <div className="image-section">
                 <img src={recipie.image} alt="" className='recipie-image'/>
@@ -23,16 +23,17 @@ const Recipie = ({setshowRecipie, foods, id}) => {
                 
             </div> 
             </div>                   
+                ) : (
+                    ""
                 )
-            }}
+            
 
             })}
 
 
         {foods.map((recipie) => {
               
-              {if (recipie.id === id) {
-                  return (
+         return recipie.id === id ? (
              <div className="recipie-cont-right" key={recipie.id}>
       
               <div className="instruction-section" dangerouslySetInnerHTML={{__html: recipie.instructions}}>
@@ -42,8 +43,9 @@ const Recipie = ({setshowRecipie, foods, id}) => {
               </div> 
         
                             
+          ) : (
+            ""
           )
-}}
 
 })}
 

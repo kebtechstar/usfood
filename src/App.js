@@ -12,7 +12,7 @@ function App() {
   const [food, setfood] = useState([]);
   const [showRecipie, setshowRecipie] = useState(false);
   const [id , setId] = useState();
-  const [search , setSearch] = useState([]);
+  
   const [typed , setTyped] = useState([]);
 
   useEffect(() => {

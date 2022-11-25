@@ -1,6 +1,5 @@
 import React from 'react'
 import './Foods.css'
-import { useState } from 'react';
 
 const Foods = ({food, setshowRecipie, setId}) => {
  
@@ -12,14 +11,13 @@ const Foods = ({food, setshowRecipie, setId}) => {
 
   return (
     <div className="food-container">
-        {food.map((recipie, key)=> {
-            return (
+        {food.map((recipie, key)=> (
             <div className="food" onClick={e => display(e, recipie.id)} key={recipie.id}>
                 <img src={recipie.image} alt="" />
                   
             </div>
             )
-        })}
+        )}
     </div>
   )
 }
